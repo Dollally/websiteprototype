@@ -1,0 +1,207 @@
+html,
+body{
+	height: 100%;
+	font-family: sans-serif, arial;
+	
+}
+
+#hireSean{
+	z-index: 100;
+	width: 50%;
+	height: 15%;
+	border: solid 2px white;
+	border-radius: 3px;
+	clear:both;
+}
+#contactInfo{
+	clear: both;
+	text-decoration: underline;
+	font-size: inherit;
+	color: white;
+	font-size:20px;
+	padding-top: 3px;
+	padding-right: 2%;
+}
+#email,
+#linkedin,
+#phoneNumber,
+#address{
+	clear:both;
+	list-style-type: none;
+	color: white;
+	font-size: 18px;
+	display: inline;
+	padding: 15px;
+
+}
+#linkedin>a:link{
+	color:inherit;
+}
+#linkedin>a:visited{
+	color: inherit;
+}
+.navbar{
+	color:white;
+	/*background-color:#2D85DF;*/
+	background-color:#607D8B;
+
+}
+.contact{
+	display: inline;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+#portfolio,
+#references,
+#experience,
+#skills,
+#aboutme{
+	color:white;
+
+}
+
+.vcenter{
+	vertical-align: middle;
+}
+.resume{
+	color:white;
+	vertical-align: middle;
+	clear: both;
+}
+
+#aboutmetext{
+	font-size: 1.5em;
+}
+
+.nav,
+.navbar-brand{
+	color:white;
+}
+
+.icon-bar,
+.button{
+	color: white;
+	background-color: white;
+}
+
+.jumbotron{
+	background: #4888F4;
+	z-index: 95;
+	padding-bottom: 0px !important;
+}
+.seanC:hover{
+	color:white;
+	background-color: #EA4335;
+}
+
+.well{
+	background: transparent;
+	z-index: 99;
+}
+
+p{
+	text-align: center;
+}
+
+.well-sm{
+	background: white;
+	padding: 5px;
+	height: 100%;
+	border: solid 1px gray;
+	border-radius: 3px;
+
+}
+.btn-primary{
+	background-color: #4888F4;
+	text-align: center;
+	display: inline;
+}
+.banner{
+	background: #4888F4;
+	z-index: 97;
+	border: solid 1px #607D8B;
+	
+}
+
+.bottom{
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	min-height: 32%;
+	margin-bottom: 0;
+	height: 42%;
+	position: relative;
+	margin-top: 0;
+	top: 0;
+
+	
+
+}
+
+.icons{
+	width: 100px;
+	max-width: 100px;
+	max-height: 100px;
+	min-height: 50px;
+	min-width: 50px;
+	height: 100px;
+}
+
+.noPadding{
+	padding:0 !important;
+	margin: 0 !important;
+}
+
+.paddingTop{
+	margin-top: .75em;
+	margin: 0;
+	bottom: -.75em;
+	
+}
+
+#experienceicon{
+	width: 100px;
+	max-width: 100px;
+	max-height: 100px;
+	min-height: 50px;
+	min-width: 50px;
+	height: 100px;
+	margin-left: 5%;
+
+}
+
+.wrapper{
+	max-height: 45em;
+	padding: 4%;
+	display: inline;
+}
+
+.xsicons{
+	width: 75px;
+	max-width: 75px;
+	max-height: 75px;
+	min-height: 75px;
+	min-width: 75px;
+	height: 75px;
+	margin: auto;
+}
+
+#xsexperienceicon{
+	width: 75px;
+	max-width: 75px;
+	max-height: 75px;
+	min-height: 75px;
+	min-width: 75px;
+	height: 75px;
+	margin-left: 35%;
+
+}
+/*
+.sticky{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: blue;
+}*/
